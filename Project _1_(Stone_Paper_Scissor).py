@@ -28,17 +28,17 @@ def game(n = random.randint(1,3)):
         
         else:
             if(computer==1 and you==2):
-                print("You Win!")
+                print("Congratulations! You Won.")
             elif(computer==1 and you==3):
-                print("You Lose!")
+                print("Alas! You Lost.")
             elif(computer==2 and you==1):
-                print("You Lose!")
+                print("Alas! You Lost.")
             elif(computer==2 and you==3):
-                print("You Win!")
+                print("Congratulations! You Won.")
             elif(computer==3 and you==1):
-                print("You Win!")
+                print("Congratulations! You Won.")
             elif(computer==3 and you==2):
-                print("You Lose!")
+                print("Alas! You Lost.")
             else:
                 print("Something went wrong!")
 
