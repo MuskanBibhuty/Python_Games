@@ -1,7 +1,7 @@
 import random
 
 def hangman():
-    word_list = ['algorithm', 'function', 'variable', 'compile', 'iterate', 'recursion', 'binary', 'array', 'syntax', 'pointer']
+    word_list = ['algorithm', 'function', 'variable', 'compile', 'iterate', 'recursion', 'binary', 'array', 'syntax', 'pointer', 'list']
     word = random.choice(word_list)
     guessed = ['_'] * len(word)
     guessed_letters = []
